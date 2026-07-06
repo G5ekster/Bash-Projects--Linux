@@ -1,7 +1,6 @@
 project_name="$1"
-DIR="/home/g5ekster/Hello!"
 
-if [ -d "$DIR" ]; then
+if [ -d "$project_name" ]; then
    echo "Folder already exists!"
    exit 1
 elif [ "$project_name" != "" ]; then
